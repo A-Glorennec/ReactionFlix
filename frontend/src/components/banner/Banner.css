@@ -1,0 +1,44 @@
+.banner-card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 20px;
+  position: relative;
+}
+
+.banner-img {
+  height: 350px;
+  border-radius: 15px;
+}
+
+.banner-button {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+button {
+  width: 44%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  height: 47px;
+  align-items: center;
+  border-radius: 5px;
+  border: 0 none;
+}
+
+.banner-button-dark {
+  background-color: #3a3c3b;
+  color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner-card {
+    display: none;
+  }
+}

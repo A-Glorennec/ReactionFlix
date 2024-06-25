@@ -1,0 +1,24 @@
+:root {
+  --font-family-title: "Courgette", cursive;
+  --font-family-text: "Roboto", sans-serif;
+  --color-primary: #3a3c3b;
+  --color-secondary: #acb9bd;
+  --color-tertiary: #6ecac8;
+  --font-size: 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #3a3c3b;
+}
+
+main {
+  min-height: calc(100vh - 140px - 30px);
+  font-family: var(--font-family-text);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: var(--font-family-text);
+}

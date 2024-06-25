@@ -1,0 +1,80 @@
+body {
+  position: relative;
+}
+#root {
+  height: 100vh;
+}
+
+.connexion-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.connexion-logo img {
+  height: 260px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.user-input,
+.password-input {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+input {
+  border-radius: 10px;
+  height: 30px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+  font-family: var(--font-family-text);
+}
+
+.signUp {
+  width: 200px;
+  height: 30px;
+  font-weight: 600;
+}
+
+.new-user {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+
+.new-user-button {
+  height: 37px;
+  display: flex;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 40px;
+  width: 14rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: var(--font-family-text);
+}
+
+span {
+  font-family: var(--font-family-title);
+  color: var(--color-tertiary);
+}
+
+.connexion-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  bottom: -225px;
+}

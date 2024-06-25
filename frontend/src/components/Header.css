@@ -1,0 +1,111 @@
+/* Header */
+* {
+  font-family: var(--font-family-text);
+}
+
+header {
+  height: 200px;
+}
+
+.divNavMobile1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 140px;
+}
+
+/* NavMobile1 */
+.icons {
+  width: 20px;
+  height: 50px;
+}
+
+.nav-mobile-1 {
+  display: flex;
+  gap: 15px;
+  padding-right: 25px;
+}
+
+/* NavMobile2 */
+
+.nav2 {
+  display: flex;
+  list-style: none;
+}
+
+.list-nav2 {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  color: white;
+}
+
+.list-radius {
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.NavBarDesktop1 {
+  display: none;
+}
+
+.nav-desktop-2 {
+  display: none;
+}
+
+/*---------Desktop------------*/
+@media screen and (min-width: 1024px) {
+  /* NavBarDesktop1 */
+  .NavBarDesktop1 {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+
+  .liNavBarDesktop1 {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .nav-mobile-1 {
+    display: none;
+  }
+
+  .nav-mobile-2 {
+    display: none;
+  }
+
+  .divP {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aNavBarDesktop1 {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  /* NavBar desktop 2*/
+  .nav-desktop-2 {
+    display: flex;
+    gap: 25px;
+    padding-right: 20px;
+  }
+
+  .nav_mobile-1 {
+    display: none;
+  }
+
+  header {
+    height: 140px;
+  }
+}

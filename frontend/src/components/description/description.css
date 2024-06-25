@@ -1,0 +1,243 @@
+.all {
+  display: none;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.home {
+  text-align: center;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  /* position:relative; */
+}
+
+.centered-element {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.volume {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.play {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.right-volume {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.descriptifName {
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+.choix {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ssVector {
+  font-size: 10px;
+  color: white;
+}
+
+.divColomn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divEval {
+  display: flex;
+  gap: 10px;
+}
+
+.pDescriptif {
+  color: white;
+  padding: 10px;
+}
+
+.divReprendre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.play1 {
+  width: 20px;
+  height: 20px;
+}
+
+.divDownload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.allButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.divSaison {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.pTitre {
+  color: white;
+  padding: 10px;
+}
+
+.allMini {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.miniHD {
+  border: white solid 1px;
+  border-radius: 2px;
+  background-color: black;
+  padding: 1px;
+}
+
+.miniAge {
+  background-color: #534f4f;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media screen and (min-width: 1024px) {
+  .divDescription {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .descriptif {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+  }
+
+  .listDescript {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+
+  .listDesc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #3a3c3b;
+    color: white;
+    width: 270px;
+    text-align: center;
+  }
+
+  .divBas {
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .icons {
+    width: 40px;
+    height: 40px;
+  }
+
+  .desktopDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  p {
+    font-size: 40px;
+    margin: 0;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .genre {
+    color: white;
+  }
+
+  .all {
+    display: block;
+  }
+
+  .mainMobile {
+    display: none;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .navBar {
+    display: none;
+  }
+}
